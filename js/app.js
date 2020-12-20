@@ -32,7 +32,49 @@ console.log("Your age is "+age);
 
  }
 
- 
+ //JavaScript is Dynamic
+ // Data Types
+
+ //Primitive Data Types (STACK)
+
+//  String
+//  Numbers 
+//  Boolean 
+//  Null 
+//  Undefined 
+//  Symbol 
+
+
+let str = "We are learning JS here ";
+console.log(str + (typeof str));
+
+let num = 454646;
+let num1 = 447457.674754
+console.log(num, num1 + (typeof num));
+
+let myVar = null;
+console.log(myVar+ (typeof myVar));
+
+var mySch;
+console.log(mySch+ (typeof mySch));
+
+ //Reference Data Types (HEAP)
+
+//  Arrays 
+//  Objects Literals 
+//  Functions
+//  Dates 
     
 
 
+let myArray = [1,2,3,4,5,6];
+console.log("Array values are "+myArray + (typeof myArray));
+
+
+const contactNum = {
+    hamza: 03083580588,
+    dani: 34953975730,
+    nomi: 07968574635
+}
+
+console.log(contactNum);
